@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BAB9E91928CEBB00F81026 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BAB9E81928CEBB00F81026 /* Foundation.framework */; };
+		18BAB9EB1928CEBB00F81026 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BAB9EA1928CEBB00F81026 /* CoreGraphics.framework */; };
+		18BAB9ED1928CEBB00F81026 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BAB9EC1928CEBB00F81026 /* UIKit.framework */; };
+		18BAB9F31928CEBB00F81026 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BAB9F11928CEBB00F81026 /* InfoPlist.strings */; };
+		18BAB9F51928CEBB00F81026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BAB9F41928CEBB00F81026 /* main.m */; };
+		18BAB9F91928CEBB00F81026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BAB9F81928CEBB00F81026 /* AppDelegate.m */; };
+		18BAB9FC1928CEBB00F81026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BAB9FA1928CEBB00F81026 /* Main.storyboard */; };
+		18BAB9FF1928CEBB00F81026 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BAB9FE1928CEBB00F81026 /* ViewController.m */; };
+		18BABA011928CEBB00F81026 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BABA001928CEBB00F81026 /* Images.xcassets */; };
+		18BABA201928D96600F81026 /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18BABA1F1928D96600F81026 /* worklight.plist */; };
+		18BABA221928D99900F81026 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BABA211928D99900F81026 /* CFNetwork.framework */; };
+		18BABA241928D9A000F81026 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BABA231928D9A000F81026 /* SystemConfiguration.framework */; };
+		18BABA8A1928D9CE00F81026 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BABA891928D9CE00F81026 /* MobileCoreServices.framework */; };
+		18BABA8C1928D9D500F81026 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BABA8B1928D9D500F81026 /* CoreData.framework */; };
+		18BABA8E1928D9DB00F81026 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BABA8D1928D9DB00F81026 /* CoreLocation.framework */; };
+		18BABA901928D9E000F81026 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BABA8F1928D9E000F81026 /* Security.framework */; };
+		18BABA921928D9EF00F81026 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BABA911928D9EF00F81026 /* libstdc++.6.dylib */; };
+		18BABA941928D9F400F81026 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BABA931928D9F400F81026 /* libz.dylib */; };
+		18BABA9A1928DBE900F81026 /* TrusteerChallengeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BABA991928DBE900F81026 /* TrusteerChallengeHandler.m */; };
+		194F8CB81A1B3F0B002B0D8B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194F8CB71A1B3F0B002B0D8B /* CoreMotion.framework */; };
+		19983C411AF8DC5E0005363F /* WorklightAPI in Resources */ = {isa = PBXBuildFile; fileRef = 19983C401AF8DC5E0005363F /* WorklightAPI */; };
+		19983C431AF8DC790005363F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19983C421AF8DC790005363F /* libc++.dylib */; };
+		19983C451AF8DC7E0005363F /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19983C441AF8DC7E0005363F /* sqlcipher.framework */; };
+		19983C471AF8DC800005363F /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19983C461AF8DC800005363F /* IBMMobileFirstPlatformFoundation.framework */; };
+		19EAD70D1A23238600AB27D7 /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19EAD70C1A23238600AB27D7 /* worklight.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18BAB9E51928CEBB00F81026 /* TrusteerObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrusteerObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BAB9E81928CEBB00F81026 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18BAB9EA1928CEBB00F81026 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18BAB9EC1928CEBB00F81026 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18BAB9F01928CEBB00F81026 /* TrusteerObjC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrusteerObjC-Info.plist"; sourceTree = "<group>"; };
+		18BAB9F21928CEBB00F81026 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18BAB9F41928CEBB00F81026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18BAB9F61928CEBB00F81026 /* TrusteerObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrusteerObjC-Prefix.pch"; sourceTree = "<group>"; };
+		18BAB9F71928CEBB00F81026 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18BAB9F81928CEBB00F81026 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18BAB9FB1928CEBB00F81026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BAB9FD1928CEBB00F81026 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18BAB9FE1928CEBB00F81026 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18BABA001928CEBB00F81026 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18BABA1F1928D96600F81026 /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
+		18BABA211928D99900F81026 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18BABA231928D9A000F81026 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18BABA891928D9CE00F81026 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18BABA8B1928D9D500F81026 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18BABA8D1928D9DB00F81026 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18BABA8F1928D9E000F81026 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18BABA911928D9EF00F81026 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		18BABA931928D9F400F81026 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		18BABA981928DBE900F81026 /* TrusteerChallengeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrusteerChallengeHandler.h; sourceTree = "<group>"; };
+		18BABA991928DBE900F81026 /* TrusteerChallengeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrusteerChallengeHandler.m; sourceTree = "<group>"; };
+		194F8CB71A1B3F0B002B0D8B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		19983C401AF8DC5E0005363F /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
+		19983C421AF8DC790005363F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		19983C441AF8DC7E0005363F /* sqlcipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlcipher.framework; path = WorklightAPI/Frameworks/sqlcipher.framework; sourceTree = "<group>"; };
+		19983C461AF8DC800005363F /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileFirstPlatformFoundation.framework; path = WorklightAPI/Frameworks/IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
+		19EAD70C1A23238600AB27D7 /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BAB9E21928CEBB00F81026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19983C471AF8DC800005363F /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				19983C451AF8DC7E0005363F /* sqlcipher.framework in Frameworks */,
+				19983C431AF8DC790005363F /* libc++.dylib in Frameworks */,
+				18BABA941928D9F400F81026 /* libz.dylib in Frameworks */,
+				18BABA921928D9EF00F81026 /* libstdc++.6.dylib in Frameworks */,
+				194F8CB81A1B3F0B002B0D8B /* CoreMotion.framework in Frameworks */,
+				18BABA901928D9E000F81026 /* Security.framework in Frameworks */,
+				18BABA8E1928D9DB00F81026 /* CoreLocation.framework in Frameworks */,
+				18BABA8C1928D9D500F81026 /* CoreData.framework in Frameworks */,
+				18BABA8A1928D9CE00F81026 /* MobileCoreServices.framework in Frameworks */,
+				18BABA241928D9A000F81026 /* SystemConfiguration.framework in Frameworks */,
+				18BABA221928D99900F81026 /* CFNetwork.framework in Frameworks */,
+				18BAB9EB1928CEBB00F81026 /* CoreGraphics.framework in Frameworks */,
+				18BAB9ED1928CEBB00F81026 /* UIKit.framework in Frameworks */,
+				18BAB9E91928CEBB00F81026 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BAB9DC1928CEBB00F81026 = {
+			isa = PBXGroup;
+			children = (
+				19983C401AF8DC5E0005363F /* WorklightAPI */,
+				194F8CB91A1B4029002B0D8B /* Resources */,
+				18BAB9EE1928CEBB00F81026 /* TrusteerObjC */,
+				18BAB9E71928CEBB00F81026 /* Frameworks */,
+				18BAB9E61928CEBB00F81026 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BAB9E61928CEBB00F81026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BAB9E51928CEBB00F81026 /* TrusteerObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BAB9E71928CEBB00F81026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19983C461AF8DC800005363F /* IBMMobileFirstPlatformFoundation.framework */,
+				19983C441AF8DC7E0005363F /* sqlcipher.framework */,
+				19983C421AF8DC790005363F /* libc++.dylib */,
+				194F8CB71A1B3F0B002B0D8B /* CoreMotion.framework */,
+				18BABA931928D9F400F81026 /* libz.dylib */,
+				18BABA911928D9EF00F81026 /* libstdc++.6.dylib */,
+				18BABA8F1928D9E000F81026 /* Security.framework */,
+				18BABA8D1928D9DB00F81026 /* CoreLocation.framework */,
+				18BABA8B1928D9D500F81026 /* CoreData.framework */,
+				18BABA891928D9CE00F81026 /* MobileCoreServices.framework */,
+				18BABA231928D9A000F81026 /* SystemConfiguration.framework */,
+				18BABA211928D99900F81026 /* CFNetwork.framework */,
+				18BAB9E81928CEBB00F81026 /* Foundation.framework */,
+				18BAB9EA1928CEBB00F81026 /* CoreGraphics.framework */,
+				18BAB9EC1928CEBB00F81026 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18BAB9EE1928CEBB00F81026 /* TrusteerObjC */ = {
+			isa = PBXGroup;
+			children = (
+				18BABA1F1928D96600F81026 /* worklight.plist */,
+				18BAB9F71928CEBB00F81026 /* AppDelegate.h */,
+				18BAB9F81928CEBB00F81026 /* AppDelegate.m */,
+				18BAB9FA1928CEBB00F81026 /* Main.storyboard */,
+				18BAB9FD1928CEBB00F81026 /* ViewController.h */,
+				18BAB9FE1928CEBB00F81026 /* ViewController.m */,
+				18BABA001928CEBB00F81026 /* Images.xcassets */,
+				18BAB9EF1928CEBB00F81026 /* Supporting Files */,
+				18BABA981928DBE900F81026 /* TrusteerChallengeHandler.h */,
+				18BABA991928DBE900F81026 /* TrusteerChallengeHandler.m */,
+			);
+			path = TrusteerObjC;
+			sourceTree = "<group>";
+		};
+		18BAB9EF1928CEBB00F81026 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BAB9F01928CEBB00F81026 /* TrusteerObjC-Info.plist */,
+				18BAB9F11928CEBB00F81026 /* InfoPlist.strings */,
+				18BAB9F41928CEBB00F81026 /* main.m */,
+				18BAB9F61928CEBB00F81026 /* TrusteerObjC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		194F8CB91A1B4029002B0D8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19EAD70C1A23238600AB27D7 /* worklight.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BAB9E41928CEBB00F81026 /* TrusteerObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BABA171928CEBC00F81026 /* Build configuration list for PBXNativeTarget "TrusteerObjC" */;
+			buildPhases = (
+				18BAB9E11928CEBB00F81026 /* Sources */,
+				18BAB9E21928CEBB00F81026 /* Frameworks */,
+				18BAB9E31928CEBB00F81026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrusteerObjC;
+			productName = TrusteerObjC;
+			productReference = 18BAB9E51928CEBB00F81026 /* TrusteerObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BAB9DD1928CEBB00F81026 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = IBM;
+			};
+			buildConfigurationList = 18BAB9E01928CEBB00F81026 /* Build configuration list for PBXProject "TrusteerObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BAB9DC1928CEBB00F81026;
+			productRefGroup = 18BAB9E61928CEBB00F81026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BAB9E41928CEBB00F81026 /* TrusteerObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BAB9E31928CEBB00F81026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BABA011928CEBB00F81026 /* Images.xcassets in Resources */,
+				18BAB9F31928CEBB00F81026 /* InfoPlist.strings in Resources */,
+				18BAB9FC1928CEBB00F81026 /* Main.storyboard in Resources */,
+				19983C411AF8DC5E0005363F /* WorklightAPI in Resources */,
+				18BABA201928D96600F81026 /* worklight.plist in Resources */,
+				19EAD70D1A23238600AB27D7 /* worklight.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BAB9E11928CEBB00F81026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BABA9A1928DBE900F81026 /* TrusteerChallengeHandler.m in Sources */,
+				18BAB9FF1928CEBB00F81026 /* ViewController.m in Sources */,
+				18BAB9F91928CEBB00F81026 /* AppDelegate.m in Sources */,
+				18BAB9F51928CEBB00F81026 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18BAB9F11928CEBB00F81026 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BAB9F21928CEBB00F81026 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18BAB9FA1928CEBB00F81026 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BAB9FB1928CEBB00F81026 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BABA151928CEBC00F81026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18BABA161928CEBC00F81026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BABA181928CEBC00F81026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrusteerObjC/TrusteerObjC-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "TrusteerObjC/TrusteerObjC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI",
+					"$(PROJECT_DIR)/tas",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18BABA191928CEBC00F81026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrusteerObjC/TrusteerObjC-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "TrusteerObjC/TrusteerObjC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI",
+					"$(PROJECT_DIR)/tas",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BAB9E01928CEBB00F81026 /* Build configuration list for PBXProject "TrusteerObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BABA151928CEBC00F81026 /* Debug */,
+				18BABA161928CEBC00F81026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BABA171928CEBC00F81026 /* Build configuration list for PBXNativeTarget "TrusteerObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BABA181928CEBC00F81026 /* Debug */,
+				18BABA191928CEBC00F81026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BAB9DD1928CEBB00F81026 /* Project object */;
+}

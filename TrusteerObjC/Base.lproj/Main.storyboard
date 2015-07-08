@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="VOd-nx-MBI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="PhU-lt-Wk8">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="VOd-nx-MBI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MVs-j8-mLv">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qwT-BT-Wby" kind="relationship" relationship="rootViewController" id="oS9-EJ-0gX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v4c-Dx-oAO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16" y="84"/>
+        </scene>
+        <!--Trusteer Integration-->
+        <scene sceneID="SUS-kz-Ttd">
+            <objects>
+                <viewController id="qwT-BT-Wby" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xiO-aN-NST"/>
+                        <viewControllerLayoutGuide type="bottom" id="c1J-SL-gPu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="42p-fS-e0i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="NoI-fV-82I">
+                                <rect key="frame" x="20" y="66" width="280" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="fAg-y4-EGn"/>
+                                    <constraint firstAttribute="height" constant="150" id="kCP-F1-jNT"/>
+                                </constraints>
+                                <string key="text">This sample requires you to install the Trusteer SDK into your application. If you see this message, this means the Trusteer SDK was not loaded successfully. Please read the documentation/getting started guide and try again.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbK-3F-G9X">
+                                <rect key="frame" x="96" y="232" width="128" height="30"/>
+                                <state key="normal" title="Get Sensitive Data">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="adapter:" destination="qwT-BT-Wby" eventType="touchUpInside" id="kLd-57-gXL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Uwd-lk-Bkg">
+                                <rect key="frame" x="20" y="273" width="280" height="275"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kbK-3F-G9X" firstAttribute="leading" secondItem="42p-fS-e0i" secondAttribute="leadingMargin" constant="80" id="6CG-a9-9nx"/>
+                            <constraint firstItem="kbK-3F-G9X" firstAttribute="top" secondItem="NoI-fV-82I" secondAttribute="bottom" constant="16" id="7Q1-Kg-EEG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kbK-3F-G9X" secondAttribute="trailing" constant="80" id="LM9-kO-oHW"/>
+                            <constraint firstItem="NoI-fV-82I" firstAttribute="top" secondItem="xiO-aN-NST" secondAttribute="bottom" constant="2" id="RQw-4O-K2S"/>
+                            <constraint firstItem="NoI-fV-82I" firstAttribute="leading" secondItem="42p-fS-e0i" secondAttribute="leadingMargin" constant="4" id="lYz-Jq-8U9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NoI-fV-82I" secondAttribute="trailing" constant="4" id="lgB-mX-DM3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Trusteer Integration" id="43Q-lv-74l"/>
+                    <connections>
+                        <outlet property="intro" destination="NoI-fV-82I" id="CLI-d8-Hem"/>
+                        <outlet property="result" destination="Uwd-lk-Bkg" id="NrD-mm-WmE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HMX-qg-NiU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="438" y="86"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
