@@ -1,13 +1,13 @@
 IBM MobileFirst Platform Foundation
 ===
-### Sample Name
+### Trusteer for iOS
 
 
 ### Usage
-Follow the instructions in the tutorials listed below.
+Follow the instructions in the tutorial(s) listed below.
 
 ### Tutorials
-
+https://developer.ibm.com/mobilefirstplatform/documentation/integration-7-1/trusteer-ios-integration/
 
 ### Supported Levels
 IBM MobileFirst Platform Foundation 7.1
