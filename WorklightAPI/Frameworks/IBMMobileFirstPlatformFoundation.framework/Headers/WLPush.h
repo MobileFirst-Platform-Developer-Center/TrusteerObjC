@@ -34,6 +34,9 @@
 @property (strong) NSMutableArray *subscribedTags;
 @property (strong) NSString *tokenFromClient;
 @property  BOOL isTokenUpdatedOnServer;
+@property (strong) NSString *appUserId;
+@property (strong) NSString *loginId;
+@property (strong) NSString *serverUserId;
 
 +(WLPush *) sharedInstance;
 
@@ -123,6 +126,11 @@
  **/
 -(BOOL) isTagSubscribed :(NSString *)tagName;
 
+
+-(void) getTags : (id <WLDelegate>)responseListener;
+
+-(void) unregisterDevice : (id <WLDelegate>) responseListener;
+
 /**
  * This method checks whether push notification is supported.
  *
@@ -133,5 +141,6 @@
 -(void) internalSubscribe :(WLPushOptions *)options :(BOOL )isTag :(NSString *)name :(id <WLDelegate>)responseListener;
 
 -(void) internalUnsubscribe :(BOOL )isTag :(NSString *)name :(id <WLDelegate>)responseListener;
+
 
 @end
